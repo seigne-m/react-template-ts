@@ -24,8 +24,6 @@
       ]
     }
   },
-  "include": [
-    "./src",
-    "./webpack.config.ts"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["./node_modules", "./build", "./dist", "./.vscode"]
 }
